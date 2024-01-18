@@ -4,14 +4,14 @@ let user = prompt("Ingrese su nombre por favor")
 alert( user +" Bienvenido a 'MULTIELECTRON' ")
 
 let productos = [
-    {id: 11, nombre: "Camara Dahua 2mp", cat:"camaras", precio:1000, stock: 5},    
-    {id: 12, nombre: "Camara Hikvision 1mp", cat:"camaras", precio:1000, stock: 5},
-    {id: 13, nombre: "Camara PTZ", cat:"camaras", precio:1000, stock: 5},
-    {id: 14, nombre: "Grabador de 8CH", cat:"grabadores", precio:1000, stock: 5},
-    {id: 15, nombre: "Grabador de 16CH", cat:"grabadores", precio:1000, stock: 5},
-    {id: 16, nombre: "Grabador de 32CH", cat:"grabadores", precio:1000, stock: 5},
-    {id: 17, nombre: "Disco duro 1TB", cat:"almacenamiento", precio:1000, stock: 5},
-    {id: 18, nombre: "Disco duro 2TB", cat:"almacenamiento", precio:1000, stock: 5}
+    {id: 11, nombre: "Camara Dahua 2mp", cat:"camaras", precio:1300, stock: 7},    
+    {id: 12, nombre: "Camara Hikvision 1mp", cat:"camaras", precio:2000, stock: 5},
+    {id: 13, nombre: "Camara PTZ", cat:"camaras", precio:1600, stock: 15},
+    {id: 14, nombre: "Grabador de 8CH", cat:"grabadores", precio:900, stock: 9},
+    {id: 15, nombre: "Grabador de 16CH", cat:"grabadores", precio:1100, stock: 3},
+    {id: 16, nombre: "Grabador de 32CH", cat:"grabadores", precio:700, stock: 8},
+    {id: 17, nombre: "Disco duro 1TB", cat:"almacenamiento", precio:800, stock: 10},
+    {id: 18, nombre: "Disco duro 2TB", cat:"almacenamiento", precio:600, stock: 12}
 ]
 
  alert("Elije la opcion de lo que quieras realizar")
